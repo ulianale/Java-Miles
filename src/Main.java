@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 110; // стоимость билета
+        int price = 110; // стоимость билета
         int oneMile = 20; // одна миля за 20 руб
-        System.out.println("Начислено миль: " + amount / oneMile);
+        System.out.println("Начислено миль: " + price / oneMile);
 
     }
 }
